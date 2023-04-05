@@ -6,7 +6,7 @@
     font-family: 'Poppins', sans-serif;
 }
 nav{
-    background-color: #18929D;
+    background-color: #57bcc5c4;
     padding: 10px 60px;
     display: flex;
     justify-content: space-between;
@@ -60,6 +60,18 @@ nav li a:hover{
     color: #fff;
     font-size: 58px;
     font-weight: 600;
+}
+
+#logoempresa {
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: 100px;
+}
+
+#logoedit {
+    width: 300px;
+    height: 300px;
 }
 .texto .botoes{
     margin-top: 30px;
