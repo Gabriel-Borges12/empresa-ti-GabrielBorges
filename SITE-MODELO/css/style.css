@@ -6,7 +6,7 @@
     font-family: 'Poppins', sans-serif;
 }
 nav{
-    background-color: #57bcc5c4;
+    background-color: #66a5d9;
     padding: 10px 60px;
     display: flex;
     justify-content: space-between;
@@ -42,7 +42,7 @@ nav li a:hover{
 }
 .banner{
     height: 100vh;
-    background: linear-gradient( rgba(0,0,0,0.281), rgba(0,0,0,0.308)),url('../img/background.jpg');
+    background: linear-gradient( rgba(0,0,0,0.281), rgba(0,0,0,0.308)),url('../img/imagemfundo.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -114,3 +114,29 @@ nav li a:hover{
         transform: scale(1);
     }
 }
+
+footer {
+    position: sticky;
+    display: flex;
+    align-items: center;
+    background-color: #66a5d9;
+    width: 100%;
+    height: 150px;
+  }
+  
+  #logo {
+    width: 140px;
+    margin-left: 20px;
+  }
+  
+  #footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 450px;
+  }
+  
+  #footer-label {
+    color: white;
+  }

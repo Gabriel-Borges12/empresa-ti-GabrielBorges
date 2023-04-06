@@ -6,7 +6,7 @@
     font-family: 'Poppins', sans-serif;
 }
 nav{
-    background-color: #18929D;
+    background-color: #66a5d9;
     padding: 10px 60px;
     display: flex;
     justify-content: space-between;
@@ -102,3 +102,30 @@ nav li a:hover{
         transform: scale(1);
     }
 }
+
+footer {
+    position: sticky;
+    display: flex;
+    align-items: center;
+    margin-top: 75px;
+    background-color: #66a5d9;
+    width: 100%;
+    height: 150px;
+  }
+  
+  #logo {
+    width: 140px;
+    margin-left: 20px;
+  }
+  
+  #footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 450px;
+  }
+  
+  #footer-label {
+    color: white;
+  }

@@ -8,7 +8,7 @@
 }
 
 nav {
-    background-color: #57bcc5c4;
+    background-color: #66a5d9;
     padding: 10px 60px;
     display: flex;
     justify-content: space-between;
@@ -49,36 +49,83 @@ nav li a:hover {
 }
 
 body {
-    background-color: beige;
+    background-color: rgba(175, 218, 238, 0.308);
 }
+
+#editlogo {
+    display: flex;
+    justify-content: center;
+    width: 32%;
+
+}
+
+#imagem-logo {
+    display: flex;
+    justify-content: center;
+}
+
+
 
 #title {
     color: #0d7899;
-    font-size: 35px;
-    font-weight: 550;
     margin-top: 25px;
     margin-left: 25px;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+#titulo {
+    border-style: solid;
+    border-radius: 1em;
+    border-color: #4a9eb8;
 }
 
 #subtitle {
-    color:#0d7899;
-    font-size: 35px;
+    color: #0d7899;
+    font-size: 20px;
     font-weight: 550;
     margin-top: 25px;
     margin-left: 25px;
 }
+
 .explication {
     color: #000000;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 550;
     margin-left: 25px;
 }
 
+.topicos {
+    margin-top: 25px;
+    margin-left: 25px;
+}
 #logoempresa {
     display: flex;
     justify-content: center;
     width: 250px;
     height: 100px;
+}
+
+.download {
+    align-items: center;
+    margin-top: 50px;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    background-color: rgb(25, 117, 192);
+    height: 60px;
+    width: 100px;
+}
+
+#download {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+#botao {
+    display: flex;
+    justify-content: center;
 }
 
 .texto .botoes {
@@ -129,3 +176,30 @@ body {
         transform: scale(1);
     }
 }
+
+footer {
+    position: sticky;
+    display: flex;
+    align-items: center;
+    margin-top: 75px;
+    background-color: #66a5d9;
+    width: 100%;
+    height: 150px;
+  }
+  
+  #logo {
+    width: 140px;
+    margin-left: 20px;
+  }
+  
+  #footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 450px;
+  }
+  
+  #footer-label {
+    color: white;
+  }
