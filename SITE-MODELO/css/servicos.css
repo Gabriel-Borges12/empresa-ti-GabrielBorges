@@ -72,6 +72,8 @@ body {
 }
 
 #titulo {
+    display: flex;
+    justify-content: center;
     color: #0d7899;
     margin-top: 25px;
     margin-left: 25px;
@@ -80,18 +82,40 @@ body {
 }
 
 #subtitulo {
+    display: flex;
+    justify-content: center;
     color: #000000;
     font-size: 18px;
     font-weight: 550;
     margin-top: 25px;
+    margin-bottom: 25px;
     margin-left: 25px;
 }
 
+.description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#topico {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    width: 290px;
+    height: 290px;
+    border-radius: 1em;
+}
+
 .topicos {
-    margin-top: 15px;
-    margin-left: 15px;
-    font-size:medium;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-left: 25px;
+    font-size: large;
     font-weight: bolder;
+
 }
 
 .banner {
@@ -165,7 +189,9 @@ body {
 }
 
 #desc {
-    color:#0d7899;
+    display: flex;
+    justify-content: center;
+    color: #0d7899;
     font-size: 20px;
     font-weight: 550;
     margin-top: 25px;
@@ -205,21 +231,21 @@ footer {
     background-color: #66a5d9;
     width: 100%;
     height: 150px;
-  }
-  
-  #logo {
+}
+
+#logo {
     width: 140px;
     margin-left: 20px;
-  }
-  
-  #footer-content {
+}
+
+#footer-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-left: 450px;
-  }
-  
-  #footer-label {
+}
+
+#footer-label {
     color: white;
-  }
+}
