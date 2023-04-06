@@ -87,6 +87,13 @@ body {
     margin-left: 25px;
 }
 
+.topicos {
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size:medium;
+    font-weight: bolder;
+}
+
 .banner {
     height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.281), rgba(0, 0, 0, 0.308)), url('../img/background.jpg');

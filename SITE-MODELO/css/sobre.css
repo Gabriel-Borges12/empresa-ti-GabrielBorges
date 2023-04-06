@@ -74,12 +74,6 @@ body {
     font-weight: bolder;
 }
 
-#titulo {
-    border-style: solid;
-    border-radius: 1em;
-    border-color: #4a9eb8;
-}
-
 #subtitle {
     color: #0d7899;
     font-size: 20px;
@@ -98,7 +92,10 @@ body {
 .topicos {
     margin-top: 25px;
     margin-left: 25px;
+    font-size: large;
+    font-weight: bolder;
 }
+
 #logoempresa {
     display: flex;
     justify-content: center;
