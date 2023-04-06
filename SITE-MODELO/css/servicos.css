@@ -76,7 +76,6 @@ body {
     justify-content: center;
     color: #0d7899;
     margin-top: 25px;
-    margin-left: 25px;
     font-size: xx-large;
     font-weight: bolder;
 }
@@ -112,7 +111,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 25px;
-    margin-left: 25px;
+    margin-left: 17px;
     font-size: large;
     font-weight: bolder;
 
