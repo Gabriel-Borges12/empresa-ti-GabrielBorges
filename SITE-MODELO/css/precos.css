@@ -182,7 +182,15 @@ body {
     border-radius: 1em;
 }
 
-
+#topbotao {
+    display: flex;
+    justify-content: center;
+    color: #0d7899;
+    font-size: 20px;
+    font-weight: 550;
+    margin-top: 25px;
+    margin-left: 25px;
+}
 #botao {
     display: flex;
     justify-content: center;
