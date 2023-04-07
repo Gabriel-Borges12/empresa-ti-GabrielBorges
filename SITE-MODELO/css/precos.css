@@ -125,11 +125,17 @@ body {
     }
 }
 
+
 #logoempresa {
     display: flex;
     justify-content: center;
     width: 250px;
     height: 100px;
+}
+
+#logo-cima {
+    display: flex;
+    justify-content: center;
 }
 
 #logoedit {
@@ -139,9 +145,10 @@ body {
     width: 32%;
 }
 
-#logo-cima {
+#titulo {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 #title {
@@ -153,25 +160,11 @@ body {
     font-size: xx-large;
     font-weight: bolder;
 }
-#titulo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .grid {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-}
-.topicos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 25px;
-    margin-left: 25px;
-    font-size: large;
-    font-weight: bolder;
 }
 
 #topico {
@@ -183,6 +176,16 @@ body {
     border-radius: 1em;
 }
 
+.topicos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-left: 25px;
+    font-size: large;
+    font-weight: bolder;
+}
+
 #topbotao {
     display: flex;
     justify-content: center;
@@ -192,6 +195,7 @@ body {
     margin-top: 25px;
     margin-left: 25px;
 }
+
 #botao {
     display: flex;
     justify-content: center;

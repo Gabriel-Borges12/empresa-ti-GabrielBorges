@@ -52,6 +52,19 @@ body {
     background-color: rgba(175, 218, 238, 0.308);
 }
 
+.banner {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.281), rgba(0, 0, 0, 0.308)), url('../img/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
 #logoempresa {
     display: flex;
     justify-content: center;
@@ -116,19 +129,6 @@ body {
     font-weight: bolder;
 
 }
-
-.banner {
-    height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.281), rgba(0, 0, 0, 0.308)), url('../img/background.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
 .texto .titulo {
     color: #fff;
     font-size: 60px;

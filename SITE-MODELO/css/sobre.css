@@ -52,11 +52,11 @@ body {
     background-color: rgba(175, 218, 238, 0.308);
 }
 
-#editlogo {
+#logoempresa {
     display: flex;
     justify-content: center;
-    width: 32%;
-
+    width: 250px;
+    height: 100px;
 }
 
 #imagem-logo {
@@ -64,7 +64,12 @@ body {
     justify-content: center;
 }
 
+#editlogo {
+    display: flex;
+    justify-content: center;
+    width: 32%;
 
+}
 
 #title {
     display: flex;
@@ -76,21 +81,10 @@ body {
     font-weight: bolder;
 }
 
-#subtitle {
+.quemsomos {
     display: flex;
-    justify-content: center;
-    color: #0d7899;
-    font-size: 20px;
-    font-weight: 550;
-    margin-top: 25px;
-    margin-left: 25px;
-}
-
-.explication {
-    color: #000000;
-    font-size: 18px;
-    font-weight: 550;
-    margin-left: 25px;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .topicos {
@@ -111,17 +105,28 @@ body {
     height: 290px;
     border-radius: 1em;
 }
-.quemsomos {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
 
-#logoempresa {
+
+#subtitle {
     display: flex;
     justify-content: center;
-    width: 250px;
-    height: 100px;
+    color: #0d7899;
+    font-size: 20px;
+    font-weight: 550;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.explication {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 550;
+    margin-left: 25px;
+}
+
+#botao {
+    display: flex;
+    justify-content: center;
 }
 
 .download {
@@ -141,10 +146,6 @@ body {
     color: white;
 }
 
-#botao {
-    display: flex;
-    justify-content: center;
-}
 
 .texto .botoes {
     margin-top: 30px;
@@ -159,7 +160,7 @@ body {
     font-size: 20px;
     font-weight: 500;
     padding: 0 10px;
-    cursor: pointer;
+    cursor:pointer;
     outline: none;
     transition: 0.3s;
 }
